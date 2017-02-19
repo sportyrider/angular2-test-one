@@ -5,12 +5,14 @@ import { Location }               from '@angular/common';
 
 import { Hero }         from '../model/hero';
 import { HeroService }  from '../service/hero.service';
+
 @Component({
   moduleId: module.id,
   selector: 'my-hero-detail',
   templateUrl: './hero-detail.component.html',
   styleUrls: [ './hero-detail.component.css' ]
 })
+
 export class HeroDetailComponent implements OnInit {
   hero: Hero;
 
